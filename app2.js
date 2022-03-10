@@ -24,7 +24,7 @@ function appendNumber(number) {
 function getDisplayNumber(number) {
   const floatNum = parseFloat(number);
   if (isNaN(floatNum)) return "";
-  return floatNum.toString();
+  return floatNum.toLocaleString();
 }
 
 function updateDisplay() {
