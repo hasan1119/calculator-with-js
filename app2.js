@@ -65,7 +65,7 @@ function compute() {
   const prev = Number(previousOperand);
   const current = Number(currentOperand);
   switch (operation) {
-    case "/":
+    case "÷":
       currentOperand = prev / current;
       break;
     case "*":
